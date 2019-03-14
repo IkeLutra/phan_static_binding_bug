@@ -1,0 +1,17 @@
+{
+    "name": "ikelutra/phan_static_binding_bug",
+    "require": {
+        "phan/phan": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Will Otterburn",
+            "email": "will.otterburn@themarketinglab.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "" : "./"
+        }
+    }
+}
