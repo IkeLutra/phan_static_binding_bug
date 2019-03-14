@@ -6,3 +6,6 @@ var_dump(get_class(A::create()));
 $b = B::create();
 var_dump(get_class($b));
 $b->doSomething();
+$c = C::create();
+var_dump(get_class($c));
+$c->doSomething();
